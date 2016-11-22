@@ -1,6 +1,11 @@
+p{
+  line-height:1.75rem;
+  font-size:1.25rem;
+}
+
 .Podcast {
-    padding: 1em;
-    min-width: 320px;
+    padding: 2em;
+    min-width: 40vw;
     max-height: 100vh;
     overflow-y: scroll;
 }
