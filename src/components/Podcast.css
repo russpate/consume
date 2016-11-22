@@ -1,0 +1,31 @@
+.Podcast {
+    padding: 1em;
+    min-width: 320px;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.Podcast-Title a {
+    text-decoration: none;
+}
+
+.Podcast-Image {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.Podcast-Description {
+    text-align: left;
+}
+
+.Podcast-Episodes {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 1em;
+}
+
+.Podcast-Episode-Title {
+    margin: 0;
+}

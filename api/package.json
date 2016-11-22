@@ -1,0 +1,21 @@
+{
+  "name": "consume-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node --inspect index.js"
+  },
+  "author": "aaron rosenbaum <aaron.rosenbaum@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "node-vibrant": "^2.1.2",
+    "request": "^2.78.0",
+    "striptags": "^2.1.1",
+    "xmldom": "^0.1.22"
+  }
+}
