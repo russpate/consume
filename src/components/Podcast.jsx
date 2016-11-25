@@ -35,8 +35,8 @@ export default class Podcast extends Component {
                 return response.json();
             })
             .then(parsed => this.store(parsed))
-            .catch(error => { 
-                debugger; 
+            .catch(error => {
+                debugger;
             });
     }
 
@@ -76,7 +76,7 @@ export default class Podcast extends Component {
 
     componentWillMount() {
         this.update();
-    } 
+    }
 
     renderEpisode(episode) {
         return (
@@ -107,7 +107,7 @@ export default class Podcast extends Component {
                 <h2 className="Podcast-Title">
                     <a href={this.state.link} style={{ color: this.state.colors.titleTextColor }}>{this.state.title}</a>
                 </h2>
-                <img className="Podcast-Image" src={this.state.imageUrl} alt={this.state.title} />
+                <a href={this.state.link}><img className="Podcast-Image" src={this.state.imageUrl} alt={this.state.title} /></a>
                 <p className="Podcast-Description">{this.state.description}</p>
                 {this.state.episodes.length > 0 ? this.renderEpisodes() : ""}
             </div>
